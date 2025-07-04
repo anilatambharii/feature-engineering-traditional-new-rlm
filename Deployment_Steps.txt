@@ -1,0 +1,36 @@
+How to Run
+Install dependencies:
+
+text
+pip install -r requirements.txt
+Start your Kafka broker and ensure real-time data is being published to mlops-realtime-topic.
+
+Run either script:
+
+text
+python traditional_feature_engineering.py
+or
+
+text
+python rlm_text_to_text_regression.py
+Features
+Real-time data ingestion from Kafka (can be adapted to other streaming sources).
+
+Traditional ML pipeline with manual feature engineering.
+
+Modern RLM pipeline with direct text-to-text regression.
+
+Easily extensible for other real-time MLOps pipelines.
+
+Contributing
+Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly encouraged.
+
+License
+MIT License
+
+References
+[Real-Time Data Pipelines With Kafka and Python - DZone]
+
+[Build a Real-Time Data Pipeline with Python & Kafka]
+
+[Performance Prediction for Large Systems via Text-to-Text Regression]
